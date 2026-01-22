@@ -71,7 +71,7 @@ const Register = () => {
           className="w-full max-w-md bg-white dark:bg-gray-800 p-8 rounded-lg border dark:border-gray-700 shadow-sm"
         >
           <div className="flex justify-center mb-6">
-            <h2 className="text-xl font-medium pr-3">ShopSphere</h2>
+            <h2 className="text-xl font-medium pr-3">Fabrique</h2>
           </div>
           <h2 className="text-2xl font-bold text-center mb-6">Welcome! 🐰</h2>
           <p className="text-center mb-6">Create an account to get started.</p>

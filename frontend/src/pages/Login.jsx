@@ -71,7 +71,7 @@ const Login = () => {
         >
           <div className="flex justify-center mb-6">
             <h2 className="text-2xl font-semibold pr-7 tracking-tight text-gray-800 dark:text-white">
-              ShopSphere
+              Fabrique
             </h2>
           </div>
           <h2 className="text-3xl font-bold text-center mb-4 text-gray-900 dark:text-white">

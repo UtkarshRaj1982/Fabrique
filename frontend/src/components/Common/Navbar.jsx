@@ -34,7 +34,7 @@ const Navbar = () => {
       <nav className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
         <Link to="/" className="text-2xl font-semibold tracking-tight">
-          ShopSphere
+          Fabrique
         </Link>
 
         {/* Nav links (Desktop) */}

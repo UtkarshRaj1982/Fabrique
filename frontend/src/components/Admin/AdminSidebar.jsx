@@ -27,7 +27,7 @@ const AdminSidebar = () => {
       {/* Logo */}
       <div className="mb-8">
       <h2 className="text-3xl font-bold text-white tracking-wide">
-        ShopSphere
+        Fabrique
       </h2>
       </div>
 
