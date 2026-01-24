@@ -33,7 +33,9 @@ export const loginUser = createAsyncThunk(
 
       return response.data.user;
     } catch (error) {
-      return rejectWithValue(error.response.data);
+      console.error('Login error details:', error);
+      const errorMessage = error.response?.data?.message || error.message || 'Login failed';
+      return rejectWithValue({ message: errorMessage });
     }
   }
 );
@@ -52,7 +54,9 @@ export const registerUser = createAsyncThunk(
 
       return response.data.user;
     } catch (error) {
-      return rejectWithValue(error.response.data);
+      console.error('Registration error details:', error);
+      const errorMessage = error.response?.data?.message || error.message || 'Registration failed';
+      return rejectWithValue({ message: errorMessage });
     }
   }
 );
@@ -98,7 +102,7 @@ const authSlice = createSlice({
       })
       .addCase(registerUser.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.payload.message;
+        state.error = action.payload?.message || 'Registration failed';
       });
   },
 });

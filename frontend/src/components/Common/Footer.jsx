@@ -86,7 +86,7 @@ const Footer = () => {
               <TbBrandMeta className="h-5 w-5" />
             </a>
             <a
-              href="https://www.instagram.com/_anand.rs_?utm_source=qr&igsh=MTI3bHFpdDVzZWplbA=="
+              href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -115,7 +115,7 @@ const Footer = () => {
       {/* Footer bottom */}
       <div className="max-w-7xl mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6">
         <p className="text-gray-500 text-sm tracking-tighter text-center">
-          © 2025, Narayanas Co. All Rights Reserved.
+          © 2025, SOA All Rights Reserved.
         </p>
       </div>
     </footer>
