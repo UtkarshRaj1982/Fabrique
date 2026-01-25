@@ -33,7 +33,7 @@ const Navbar = () => {
     <>
       <nav className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-semibold tracking-tight">
+        <Link to="/" className="text-2xl tracking-tight fabrique-logo">
           Fabrique
         </Link>
 
